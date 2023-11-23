@@ -14,7 +14,7 @@ import inspect
 from matplotlib import pyplot as plt
 import wbgapi as wb
 
-openai.api_key = "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"
+openai.api_key = "Enter your OpenAI-Key Here"
 
 # Send requests to the World-Bank, using wbgapi API:
 def get_world_bank_data(country: str, field: str, years: list[int]):
